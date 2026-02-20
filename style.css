@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;background-color:rgb(142, 241, 112);
+}
+
+h2 {
+    color: #12802e;
+}
+
+.color {
+    color: rgb(173, 48, 142);
+}
+
+.diego {
+    color: rgb(37, 149, 253);
+}
+
+.nombre {
+    color: blue;
+    width: 440px;
+    height: 45px;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid rgb(44, 104, 42);
+    display: inline;
+    justify-content: center;
+    -webkit-animation: flicker-in-1 2s linear both;
+    animation: flicker-in-1 2s linear both;
+}
+
+
+
+@-webkit-keyframes flicker-in-1 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  10.1% {
+    opacity: 1;
+  }
+  10.2% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  20.1% {
+    opacity: 1;
+  }
+  20.6% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  30.1% {
+    opacity: 1;
+  }
+  30.5% {
+    opacity: 1;
+  }
+  30.6% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  45.1% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  55.1% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 0;
+  }
+  57.1% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.1% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  65.1% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  75.1% {
+    opacity: 0;
+  }
+  77% {
+    opacity: 0;
+  }
+  77.1% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  85.1% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  86.1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flicker-in-1 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  10.1% {
+    opacity: 1;
+  }
+  10.2% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  20.1% {
+    opacity: 1;
+  }
+  20.6% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  30.1% {
+    opacity: 1;
+  }
+  30.5% {
+    opacity: 1;
+  }
+  30.6% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  45.1% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  55.1% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 0;
+  }
+  57.1% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.1% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  65.1% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  75.1% {
+    opacity: 0;
+  }
+  77% {
+    opacity: 0;
+  }
+  77.1% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  85.1% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  86.1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.name { color: blue;
+    width: 440px;
+    height: 45px;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid rgb(44, 104, 42);
+    display: inline;
+    justify-content: center;
+}
+
+.hola {
+    width: 200px;
+    height: 76px;
+    padding: 20px;
+    margin:5px;
+    display: inline-flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.hey {
+    width: 200px;
+    height: 76px;
+    padding: 20px;
+    margin:1px;
+    display: inline-flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+.saludos {
+    width: 200px;
+    height: 76px;
+    padding: 20px;
+    margin:5px;
+    display: inline-flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.hola :hover {
+    background-color: rgb(26, 141, 3);
+}
+
+.hey :hover {
+    background-color: rgb(26, 141, 3);
+}
+.saludos :hover {
+    background-color: rgb(26, 141, 3);
+}
+
+.hola :active {
+    color: rgb(168, 19, 19);
+}
+.hey :active {
+    color: rgb(168, 19, 19);
+}
+.saludos :active {
+    color: rgb(168, 19, 19);
+}
+
+
+
+.description1{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.description1::after{
+    content:url(./src/juego.png);
+    margin: 5px;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+}
+
+.bye {
+  padding: 20px;
+  background-color: aliceblue;
+    border: 3px solid black;
+    margin: 10px ;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
+}
