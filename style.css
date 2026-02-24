@@ -2,28 +2,29 @@
     box-sizing: border-box;
 }
 html {
-    box-sizing: border-box;background-color:rgb(142, 241, 112);
+    box-sizing: border-box;background-color:rgb(139, 107, 180);
 }
 
 h2 {
-    color: #12802e;
-}
+    color: #c4d810;
+  }
 
 .color {
     color: rgb(173, 48, 142);
 }
 
 .diego {
-    color: rgb(37, 149, 253);
+    color: rgb(0, 0, 0);
 }
 
 .nombre {
-    color: blue;
+    color: rgb(183, 2, 255);
     width: 440px;
     height: 45px;
     padding: 5px;
     margin: 5px;
-    border: 3px solid rgb(44, 104, 42);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(180, 170, 27);
     display: inline;
     justify-content: center;
     -webkit-animation: flicker-in-1 2s linear both;
@@ -235,7 +236,7 @@ h2 {
 
 .hola {
     width: 200px;
-    height: 76px;
+    height: 50px;
     padding: 20px;
     margin:5px;
     display: inline-flex; 
@@ -245,7 +246,7 @@ h2 {
 
 .hey {
     width: 200px;
-    height: 76px;
+    height: 50px;
     padding: 20px;
     margin:1px;
     display: inline-flex; 
@@ -254,7 +255,7 @@ h2 {
 }
 .saludos {
     width: 200px;
-    height: 76px;
+    height: 50px;
     padding: 20px;
     margin:5px;
     display: inline-flex; 
@@ -263,14 +264,14 @@ h2 {
 }
 
 .hola :hover {
-    background-color: rgb(26, 141, 3);
+    background-color: rgb(104, 21, 39);
 }
 
 .hey :hover {
-    background-color: rgb(26, 141, 3);
+    background-color: rgb(109, 124, 39);
 }
 .saludos :hover {
-    background-color: rgb(26, 141, 3);
+    background-color: rgb(71, 50, 190);
 }
 
 .hola :active {
